@@ -30,8 +30,8 @@ boxes.forEach((box) => {
             c++;
         }
         box.disabled = true;
-        cheakwinner();
         draw();
+        cheakwinner();
 
     });
 });
@@ -77,7 +77,6 @@ newbtn.addEventListener("click", resetgame);
 rebtn.addEventListener("click", resetgame);
 
 let draw=()=>{
-    console.log(c);
 if(c===9){
     msg.innerText= `The Game Is Tied!!`;
     mess.classList.remove("hide");

@@ -29,7 +29,6 @@ h1 {
 }
 
 .new {
-    width: 10vw;
     background-color: black;
     color: rgb(255, 255, 255);
     padding: 15px;
@@ -42,6 +41,7 @@ h1 {
 }
 
 .winmsg {
+    text-align: center;
     font-weight: bolder;
     font-size: 100px;
     position: absolute;
@@ -59,15 +59,15 @@ h1 {
 }
 
 .game {
-    width: 64rem;
+    width: 780px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center
 }
 
 .box {
-    height: 15rem;
-    width: 15rem;
+    height: 215px;
+    width: 215px;
     border-radius: 50px;
     margin: 10px;
     background-color: bisque;
@@ -75,7 +75,6 @@ h1 {
     color: rgb(104, 20, 20);
     font-weight: bolder;
 }
-
 .end {
     width: 100vw;
     height: 8vh;
@@ -87,7 +86,6 @@ h1 {
 .reset {
 
     
-    width: 10vw;
     background-color: black;
     color: rgb(255, 255, 255);
     padding: 15px;

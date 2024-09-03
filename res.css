@@ -1,0 +1,83 @@
+@media only screen and (max-width: 850px){
+    h1 {
+        font-size: 5em;
+        text-align: center;
+        color: aqua;
+    }
+    .new {
+        background-color: black;
+        color: rgb(255, 255, 255);
+        padding: 15px;
+        font-size: large;
+        position: absolute;
+        bottom: 150px;
+        border: 5px solid white;
+    }
+    .winmsg {
+        font-weight: bolder;
+        font-size: 60px;
+        position: absolute;
+        top: 400px;
+        color: rgb(12, 235, 194);
+    }
+    .game {
+        width: 710px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .box {
+        height: 160px;
+        width: 160px;
+        border-radius: 35px;
+        margin: 10px;
+        background-color: bisque;
+        font-size: 120px;
+        color: rgb(104, 20, 20);
+        font-weight: bolder;
+    }
+    .reset{
+
+        padding: 10px;
+        font-size: x-large;
+    }
+}
+
+@media only screen and (max-width:600px){
+    h1 {
+        font-size: 3em
+}
+.new {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: large;
+    position: absolute;
+    bottom: 125px;
+    border: 5px solid white;
+}
+.winmsg{
+    font-size: 45px;
+    top: 230px;
+}
+.game {
+    width: 479px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: bisque;
+    font-size: 80px;
+    color: rgb(104, 20, 20);
+    font-weight: bolder;
+}
+.reset {
+    padding: 5px;
+    font-size: large;
+}
+}
